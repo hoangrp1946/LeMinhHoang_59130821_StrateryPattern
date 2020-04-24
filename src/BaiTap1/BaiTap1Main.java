@@ -18,9 +18,11 @@ public class BaiTap1Main {
         // TODO code application logic here
         context KQ=new context();
         KQ.setTinhtoan(new Cong());
-        System.out.println(" 75 + 12 = "+KQ.tinh(75, 12));
+        System.out.println(" 75 + 12 = "+
+                KQ.tinh(75, 12));
         KQ.setTinhtoan(new Tru());
-        System.out.println(" 54 - 78 = "+KQ.tinh(54, 78));
+        System.out.println(" 54 - 78 = "+
+                KQ.tinh(54, 78));
     }
     
 }
